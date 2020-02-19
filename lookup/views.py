@@ -7,7 +7,7 @@ def home(request):
     import requests
    
  
-    api_request = requests.get("http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=92078&distance=30&API_KEY=F3F8D30B-21B1-42AA-939A-8CD6BE83F86D")
+    api_request = requests.get("{add generated URL here}")
 
     try:
         api = json.loads(api_request.content)
